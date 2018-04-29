@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mov4"
+    tools:context="com.example.ahmed.moveisdiscoferservices.MainActivity">
+
+    <ScrollView
+        android:id="@+id/sl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <EditText
+                android:id="@+id/UserInput"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#009688"
+                />
+
+            <Button
+                android:id="@+id/searchbutton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Search" />
+
+
+            <TextView
+                android:id="@+id/tvJsonItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World!"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textColor="#009688"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
